@@ -1,0 +1,27 @@
+body{
+    font-family: Helvetica, "Source Han Sans CN", STXihei, sans-serif;
+    margin: 30px 10%;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+h2 {
+    margin: 15px inherit;
+}
+img {
+    margin: 0 auto; 
+    display: block;
+}
+figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Class */
+.pagetitle {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
