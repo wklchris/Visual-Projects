@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MovieDB -- wklchris</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <script src="../assets/js/d3.v4.min.js"></script> 
+</head>
+
+<body>
+    <!-- Radio Buttons -->
+    <div class="filter">
+        <p class="filter">Color by:
+            <label><input type="radio" name="colorby" value="vote_average" checked=true onclick="drawGraph()"/>Average Vote</label>
+            <label><input type="radio" name="colorby" value="popularity" onclick="drawGraph()"/>Popularity</label>
+        </p>
+        <p class="filter">Sort by:
+            <label><input type="checkbox" name="sorted" checked=true onclick="drawGraph()" />Enable Sorting</label>
+            <span id="sort_radios">
+                <label><input type="radio" name="sortby" value="sort_color" checked=true onclick="drawGraph()"/>Color</label>
+                <label><input type="radio" name="sortby" value="sort_y" onclick="drawGraph()"/>Y Values</label>
+            </span>
+        </p>
+    </div>
+    <script charset="utf-8" src="assets/js/vis.js"></script>
+</body>
+
+</html>

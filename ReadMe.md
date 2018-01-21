@@ -7,8 +7,10 @@ I planned to build a bilingual webpage for this project.
 
 This is a repo for my visualizations, including:
 - **SHMetro**: An interactive Shanghai subway network implemented by D3.js.
+- **MovieDB**: An interactive "barchart" by D3.js. 
 
 ## 中文
 
 这是存放我个人的可视化项目的仓库，包括：
 - **上海地铁**：用 D3.js 实现的、可交互的上海地铁网络图。
+- **电影数据库**：用 D3.js 实现的、可交互的电影数据“条形图”。
