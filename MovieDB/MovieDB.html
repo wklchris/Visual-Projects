@@ -12,15 +12,17 @@
     <!-- Radio Buttons -->
     <div class="filter">
         <p class="filter">Color by:
-            <label><input type="radio" name="colorby" value="vote_average" checked=true onclick="drawGraph()"/>Average Vote</label>
+            <label><input type="radio" name="colorby" checked=true value="vote_average" onclick="drawGraph()"/>Average Vote</label>
             <label><input type="radio" name="colorby" value="popularity" onclick="drawGraph()"/>Popularity</label>
+            <label><input type="radio" name="colorby" value="year" onclick="drawGraph()"/>Release Date</label>
         </p>
         <p class="filter">Sort by:
-            <label><input type="checkbox" name="sorted" checked=true onclick="drawGraph()" />Enable Sorting</label>
             <span id="sort_radios">
-                <label><input type="radio" name="sortby" value="sort_color" checked=true onclick="drawGraph()"/>Color</label>
+                <label><input type="radio" name="sortby" checked=true value="sort_name" onclick="drawGraph()"/>Movie Names</label>
+                <label><input type="radio" name="sortby" value="sort_color" onclick="drawGraph()"/>Color Theme</label>
                 <label><input type="radio" name="sortby" value="sort_y" onclick="drawGraph()"/>Y Values</label>
             </span>
+            <label><input type="checkbox" name="sorted" checked=true onclick="drawGraph()" />Enable Sorting</label>
         </p>
     </div>
     <script charset="utf-8" src="assets/js/vis.js"></script>
