@@ -2,29 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>MovieDB -- wklchris</title>
+    <title>TMDB 5000 Visualization -- wklchris</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <script src="../assets/js/d3.v4.min.js"></script> 
 </head>
 
 <body>
-    <!-- Radio Buttons -->
-    <div class="filter">
-        <p class="filter">Color by:
-            <label><input type="radio" name="colorby" checked=true value="vote_average" onclick="drawGraph()"/>Average Vote</label>
-            <label><input type="radio" name="colorby" value="popularity" onclick="drawGraph()"/>Popularity</label>
-            <label><input type="radio" name="colorby" value="year" onclick="drawGraph()"/>Release Date</label>
-        </p>
-        <p class="filter">Sort by:
-            <span id="sort_radios">
-                <label><input type="radio" name="sortby" value="sort_name" onclick="drawGraph()"/>Movie Names</label>
-                <label><input type="radio" name="sortby" checked=true value="sort_color" onclick="drawGraph()"/>Color Theme</label>
-                <label><input type="radio" name="sortby" value="sort_y" onclick="drawGraph()"/>Revenue</label>
-            </span>
-            <label><input type="checkbox" name="sorted" checked=true onclick="drawGraph()" />Enable Sorting</label>
-        </p>
-    </div>
     <script charset="utf-8" src="assets/js/vis.js"></script>
 </body>
 
