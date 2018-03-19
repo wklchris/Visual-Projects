@@ -1,0 +1,302 @@
+month,topic1,topic2,Num,words
+2017-03,0,5,2,republican
+2017-03,0,6,3,democratic
+2017-03,0,7,5,elect
+2017-03,1,8,1,nation
+2017-03,2,5,9,great
+2017-03,2,8,11,people great
+2017-03,2,9,9,great
+2017-03,3,4,4,president
+2017-03,3,9,4,president
+2017-03,4,5,2,big
+2017-03,5,0,3,republican
+2017-03,5,2,9,great
+2017-03,5,4,3,big
+2017-03,5,8,12,work great
+2017-03,5,9,9,great
+2017-03,6,0,1,democratic
+2017-03,7,0,3,elect
+2017-03,8,9,4,great thank
+2017-03,9,2,11,great
+2017-03,9,3,1,president
+2017-03,9,4,1,president
+2017-03,9,5,11,great
+2017-03,9,8,15,great thank
+2017-04,0,5,6,republican
+2017-04,0,6,4,democratic
+2017-04,0,7,4,elect
+2017-04,1,3,1,realdonaldtrump
+2017-04,1,8,3,nation
+2017-04,2,5,5,great
+2017-04,2,8,7,people great
+2017-04,2,9,5,great
+2017-04,3,4,3,president
+2017-04,3,9,3,president
+2017-04,4,3,4,president
+2017-04,4,9,4,president
+2017-04,5,2,1,great
+2017-04,5,4,2,big
+2017-04,5,8,1,work great
+2017-04,5,9,1,great
+2017-04,6,0,4,democratic
+2017-04,7,0,1,elect
+2017-04,8,1,1,nation
+2017-04,8,2,2,great people
+2017-04,8,5,2,great work
+2017-04,8,9,4,great thank
+2017-04,9,2,9,great
+2017-04,9,3,5,president
+2017-04,9,4,5,president
+2017-04,9,5,9,great
+2017-04,9,8,11,great thank
+2017-05,0,5,6,republican
+2017-05,0,6,6,democratic
+2017-05,0,7,4,elect
+2017-05,1,8,4,nation
+2017-05,2,5,3,great
+2017-05,2,8,5,people great
+2017-05,2,9,3,great
+2017-05,3,4,3,president
+2017-05,3,9,3,president
+2017-05,4,5,2,big
+2017-05,5,0,2,republican
+2017-05,5,2,5,great
+2017-05,5,4,6,big
+2017-05,5,8,8,work great
+2017-05,5,9,5,great
+2017-05,6,0,1,democratic
+2017-05,7,0,1,elect
+2017-05,8,2,2,great people
+2017-05,8,5,2,great work
+2017-05,8,9,6,great thank
+2017-05,9,2,5,great
+2017-05,9,3,3,president
+2017-05,9,4,3,president
+2017-05,9,5,5,great
+2017-05,9,8,10,great thank
+2017-06,0,5,7,republican
+2017-06,0,6,10,democratic
+2017-06,0,7,1,elect
+2017-06,1,3,5,realdonaldtrump
+2017-06,1,8,1,nation
+2017-06,2,5,9,great
+2017-06,2,8,19,people great
+2017-06,2,9,9,great
+2017-06,3,4,9,president
+2017-06,3,9,9,president
+2017-06,4,3,2,president
+2017-06,4,5,1,big
+2017-06,4,9,2,president
+2017-06,5,0,3,republican
+2017-06,5,2,4,great
+2017-06,5,4,2,big
+2017-06,5,8,7,work great
+2017-06,5,9,4,great
+2017-06,6,0,4,democratic
+2017-06,7,0,2,elect
+2017-06,8,2,4,great people
+2017-06,8,5,3,great work
+2017-06,8,9,7,great thank
+2017-06,9,2,11,great
+2017-06,9,3,3,president
+2017-06,9,4,3,president
+2017-06,9,5,11,great
+2017-06,9,8,12,great thank
+2017-07,0,5,18,republican
+2017-07,0,6,7,democratic
+2017-07,0,7,5,elect
+2017-07,1,8,2,nation
+2017-07,2,5,11,great
+2017-07,2,8,22,people great
+2017-07,2,9,11,great
+2017-07,3,1,1,realdonaldtrump
+2017-07,3,4,3,president
+2017-07,3,9,3,president
+2017-07,4,3,7,president
+2017-07,4,5,1,big
+2017-07,4,9,7,president
+2017-07,5,0,9,republican
+2017-07,5,2,5,great
+2017-07,5,4,3,big
+2017-07,5,8,10,work great
+2017-07,5,9,5,great
+2017-07,6,0,2,democratic
+2017-07,7,0,4,elect
+2017-07,8,1,1,nation
+2017-07,8,2,6,great people
+2017-07,8,5,4,great work
+2017-07,8,9,13,great thank
+2017-07,9,2,7,great
+2017-07,9,3,3,president
+2017-07,9,4,3,president
+2017-07,9,5,7,great
+2017-07,9,8,9,great thank
+2017-08,0,5,3,republican
+2017-08,0,7,1,elect
+2017-08,1,3,6,realdonaldtrump
+2017-08,1,8,7,nation
+2017-08,2,5,21,great
+2017-08,2,8,28,people great
+2017-08,2,9,21,great
+2017-08,3,1,1,realdonaldtrump
+2017-08,3,4,5,president
+2017-08,3,9,5,president
+2017-08,4,3,2,president
+2017-08,4,5,3,big
+2017-08,4,9,2,president
+2017-08,5,0,2,republican
+2017-08,5,2,8,great
+2017-08,5,4,3,big
+2017-08,5,8,16,work great
+2017-08,5,9,8,great
+2017-08,6,0,1,democratic
+2017-08,7,0,2,elect
+2017-08,8,1,2,nation
+2017-08,8,2,3,great people
+2017-08,8,5,2,great work
+2017-08,8,9,9,great thank
+2017-08,9,2,8,great
+2017-08,9,3,2,president
+2017-08,9,4,2,president
+2017-08,9,5,8,great
+2017-08,9,8,14,great thank
+2017-09,0,5,7,republican
+2017-09,0,6,4,democratic
+2017-09,0,7,2,elect
+2017-09,1,3,15,realdonaldtrump
+2017-09,1,8,9,nation
+2017-09,2,5,15,great
+2017-09,2,8,38,people great
+2017-09,2,9,15,great
+2017-09,3,1,3,realdonaldtrump
+2017-09,3,4,5,president
+2017-09,3,9,5,president
+2017-09,4,3,2,president
+2017-09,4,5,4,big
+2017-09,4,9,2,president
+2017-09,5,0,2,republican
+2017-09,5,2,3,great
+2017-09,5,4,2,big
+2017-09,5,8,7,work great
+2017-09,5,9,3,great
+2017-09,7,0,1,elect
+2017-09,8,1,3,nation
+2017-09,8,2,29,great people
+2017-09,8,5,30,great work
+2017-09,8,9,38,great thank
+2017-09,9,2,16,great
+2017-09,9,3,4,president
+2017-09,9,4,4,president
+2017-09,9,5,16,great
+2017-09,9,8,21,great thank
+2017-10,0,5,8,republican
+2017-10,0,6,7,democratic
+2017-10,0,7,4,elect
+2017-10,1,3,8,realdonaldtrump
+2017-10,1,8,7,nation
+2017-10,2,5,15,great
+2017-10,2,8,26,people great
+2017-10,2,9,15,great
+2017-10,3,1,2,realdonaldtrump
+2017-10,3,4,4,president
+2017-10,3,9,4,president
+2017-10,4,3,2,president
+2017-10,4,5,3,big
+2017-10,4,9,2,president
+2017-10,5,0,5,republican
+2017-10,5,2,15,great
+2017-10,5,4,9,big
+2017-10,5,8,29,work great
+2017-10,5,9,15,great
+2017-10,6,0,4,democratic
+2017-10,7,0,6,elect
+2017-10,8,1,1,nation
+2017-10,8,2,6,great people
+2017-10,8,5,8,great work
+2017-10,8,9,15,great thank
+2017-10,9,2,6,great
+2017-10,9,3,1,president
+2017-10,9,4,1,president
+2017-10,9,5,6,great
+2017-10,9,8,8,great thank
+2017-11,0,5,1,republican
+2017-11,0,6,6,democratic
+2017-11,0,7,1,elect
+2017-11,1,3,5,realdonaldtrump
+2017-11,1,8,7,nation
+2017-11,2,5,15,great
+2017-11,2,8,20,people great
+2017-11,2,9,15,great
+2017-11,3,4,6,president
+2017-11,3,9,6,president
+2017-11,4,3,9,president
+2017-11,4,5,3,big
+2017-11,4,9,9,president
+2017-11,5,0,6,republican
+2017-11,5,2,10,great
+2017-11,5,4,5,big
+2017-11,5,8,17,work great
+2017-11,5,9,10,great
+2017-11,6,0,2,democratic
+2017-11,8,2,7,great people
+2017-11,8,5,6,great work
+2017-11,8,9,16,great thank
+2017-11,9,2,10,great
+2017-11,9,3,4,president
+2017-11,9,4,4,president
+2017-11,9,5,10,great
+2017-11,9,8,16,great thank
+2017-12,0,5,3,republican
+2017-12,0,6,7,democratic
+2017-12,0,7,3,elect
+2017-12,1,3,2,realdonaldtrump
+2017-12,1,8,3,nation
+2017-12,2,5,5,great
+2017-12,2,8,13,people great
+2017-12,2,9,5,great
+2017-12,3,1,2,realdonaldtrump
+2017-12,3,4,3,president
+2017-12,3,9,3,president
+2017-12,4,5,1,big
+2017-12,5,0,4,republican
+2017-12,5,2,5,great
+2017-12,5,4,2,big
+2017-12,5,8,14,work great
+2017-12,5,9,5,great
+2017-12,8,1,1,nation
+2017-12,8,2,4,great people
+2017-12,8,5,4,great work
+2017-12,8,9,7,great thank
+2017-12,9,2,16,great
+2017-12,9,3,2,president
+2017-12,9,4,2,president
+2017-12,9,5,16,great
+2017-12,9,8,19,great thank
+2018-01,0,5,6,republican
+2018-01,0,6,11,democratic
+2018-01,0,7,2,elect
+2018-01,1,8,2,nation
+2018-01,2,5,15,great
+2018-01,2,8,23,people great
+2018-01,2,9,15,great
+2018-01,3,1,2,realdonaldtrump
+2018-01,3,4,3,president
+2018-01,3,9,3,president
+2018-01,4,3,2,president
+2018-01,4,5,1,big
+2018-01,4,9,2,president
+2018-01,5,2,4,great
+2018-01,5,4,2,big
+2018-01,5,8,5,work great
+2018-01,5,9,4,great
+2018-01,6,0,8,democratic
+2018-01,7,0,1,elect
+2018-01,8,1,4,nation
+2018-01,8,2,4,great people
+2018-01,8,5,5,great work
+2018-01,8,9,10,great thank
+2018-01,9,2,9,great
+2018-01,9,3,3,president
+2018-01,9,4,3,president
+2018-01,9,5,9,great
+2018-01,9,8,10,great thank

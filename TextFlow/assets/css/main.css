@@ -1,0 +1,29 @@
+html {
+    font-family: Georgia, Times, Cambria, Cochin, 'Times New Roman', serif;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
+div.tooltip {
+    background-color: wheat;
+    font-weight: bold;
+    padding: 10 40;
+    position: absolute;
+}
+
+div p {
+    display: inline-block;
+    margin: 15px 12px;
+}
+
+form, select {
+    display: inline-block;
+}
+
+text.word {
+    font-family: Helvetica, Arial, sans-serif;
+    text-anchor: left;
+}
