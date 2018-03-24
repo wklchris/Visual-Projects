@@ -1,11 +1,12 @@
 var height = {main: 1200};
 var width = {main: 1200, tooltip: 200};
 var margin = {main: 30};
-var version = 0.01
+var version = "0.01-a"
 
 var page_info = d3.select("body").append("div")
     .append("p")
-        .html("<b>上海地铁时间图 Web 版 v" + version +'</b> by @wklchris @方包子, 更新日志请前往：<a href="https://github.com/wklchris/Visual-Projects/tree/master/SHMetro">Github 页面</a>。');
+    .html("<b>上海地铁时间图 Web 版 v" + version +'</b> by @wklchris @方包子, 更新日志请前往：<a href="https://github.com/wklchris/Visual-Projects/tree/master/SHMetro">Github 页面</a>。'
+    + "<br /><br /><b>- 数据更新到 4 号线。(截至北京时间 24 日晚 7 点)</b>");
 
 var div = d3.select("body").append("div");
 var svg = div.append("svg")
@@ -46,7 +47,7 @@ function drawMetro() {
             .attr("line", function(d) { return d.line; })
             .attr("cx", function(d) { return xScale(d.x); })
             .attr("cy", function(d) { return yScale(d.y); })
-            .attr("r", 4)
+            .attr("r", 6)
             //.style("stroke", "black")
             .on("mouseover", function(d) {
                 // Show text

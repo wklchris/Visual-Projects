@@ -3,6 +3,11 @@ body{
     margin: 2px 5px;
 }
 
+div {
+    margin: 0 auto;
+    padding: 5px 10px; 
+}
+
 div.tooltip {
     background-color: wheat;
     font-weight: bold;
@@ -10,6 +15,11 @@ div.tooltip {
     text-align: center;
     padding: 0px 10px;
     min-width: 80px;
+}
+
+svg {
+    display: block;
+    margin: auto;
 }
 
 p.comment {
