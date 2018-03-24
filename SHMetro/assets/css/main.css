@@ -1,0 +1,10 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 2px 5px;
+}
+
+div.tooltip {
+    background-color: wheat;
+    font-weight: bold;
+    position: absolute;
+}
