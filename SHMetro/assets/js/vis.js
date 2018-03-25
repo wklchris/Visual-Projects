@@ -6,7 +6,7 @@ var version = "0.01-a"
 var page_info = d3.select("body").append("div")
     .append("p")
     .html("<b>上海地铁时间图 Web 版 v" + version +'</b> by @wklchris @方包子, 更新日志请前往：<a href="https://github.com/wklchris/Visual-Projects/tree/master/SHMetro">Github 页面</a>。'
-    + "<br /><br /><b>- 数据更新到 4 号线。(截至北京时间 24 日晚 7 点)</b>");
+    + "<br /><br /><b>- 所有地铁数据更新完毕。(截至北京时间 25 日早 9 点)</b>");
 
 var div = d3.select("body").append("div");
 var svg = div.append("svg")
@@ -48,11 +48,11 @@ function drawMetro() {
             .attr("cx", function(d) { return xScale(d.x); })
             .attr("cy", function(d) { return yScale(d.y); })
             .attr("r", 6)
-            //.style("stroke", "black")
+            .style("fill", function(d) { return d.is_open ? "black" : "lightgray" })
             .on("mouseover", function(d) {
                 // Show text
                 div_tooltip.select("p")
-                    .html(d.name + ", " + d.line)
+                    .html(showStationInfo(d))
                     .style("color", d.is_open ? "black" : "gray");
                 div_tooltip
                     .style("left", d3.event.pageX + "px")
@@ -65,7 +65,14 @@ function drawMetro() {
             })
             .on("mouseout", function() {
                 div_tooltip.style("visibility", "hidden");
-                d3.selectAll("circle").style("fill", "black");
+                d3.selectAll("circle")
+                    .style("fill", function(d) { return d.is_open ? "black" : "lightgray" });
             });
     });
+}
+
+function showStationInfo(d) {
+    var s = d.type == "single" ? "" : "换乘站：";
+    s += d.name + "（" + d.line + "）";
+    return s;
 }
