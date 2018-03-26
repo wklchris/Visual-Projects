@@ -6,7 +6,7 @@ var version = "0.01-a"
 var page_info = d3.select("body").append("div")
     .append("p")
     .html("<b>上海地铁时间图 Web 版 v" + version +'</b> by @wklchris @方包子, 更新日志请前往：<a href="https://github.com/wklchris/Visual-Projects/tree/master/SHMetro">Github 页面</a>。'
-    + "<br /><br /><b>- 所有地铁数据更新完毕。(截至北京时间 25 日早 9 点)</b>");
+    + "<br /><br /><b>- 1 号线时间戳测试。(截至北京时间 26 日早 10 点)</b>");
 
 var div = d3.select("body").append("div");
 var svg = div.append("svg")
@@ -74,5 +74,6 @@ function drawMetro() {
 function showStationInfo(d) {
     var s = d.type == "single" ? "" : "换乘站：";
     s += d.name + "（" + d.line + "）";
+    s += " " + d.time;
     return s;
 }
